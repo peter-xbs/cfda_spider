@@ -1,0 +1,4 @@
+python CFDA_Spider.py -h可以查看使用说明
+
+注意，本项目设立之初是为了应对CFDA数据的更新，如若从头爬取，需将CFDA_Config中的FinishedID.pickle清空为空字典，
+并把PermitNum.pickle文件清空为空SET,脚本会爬取收集全部CFDA最新数据，并更新两个Pickle文件；
